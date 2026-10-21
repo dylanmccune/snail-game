@@ -3,16 +3,17 @@
   "randomSeed": "9bfc457400bf66cdafbbc51af15d1408",
   "graph": {
     "viewport": {
-      "xmin": -12.879441770559637,
-      "ymin": -6.967800948936698,
-      "xmax": 23.79127365473817,
-      "ymax": 8.559305055697099
+      "xmin": -30.875598086124402,
+      "ymin": -9,
+      "xmax": 30.875598086124402,
+      "ymax": 9
     },
+    "squareAxes": false,
     "__v12ViewportLatexStash": {
-      "xmin": "-12.879441770559637",
-      "xmax": "23.79127365473817",
-      "ymin": "-6.967800948936698",
-      "ymax": "8.559305055697099"
+      "xmin": "-v_{px}-v_{x}",
+      "xmax": "v_{px}+v_{x}",
+      "ymin": "-v_{py}-v_{y}",
+      "ymax": "v_{py}+v_{y}"
     }
   },
   "expressions": {
@@ -20,7 +21,7 @@
       {
         "type": "text",
         "id": "979",
-        "text": "^ Start ticker to start game!"
+        "text": "^ Start ticker to start game!\nAlso close the sidebar after starting to make it less laggy"
       },
       {
         "type": "folder",
